@@ -7,4 +7,4 @@ frontend:
 api:
   build: ./api
   ports:
-    - "9091:80"
+    - "9091:9091"
