@@ -1,0 +1,10 @@
+frontend:
+  build: ./frontend
+  ports:
+    - "8001:8001"
+    - "8002:8002"
+
+api:
+  build: ./api
+  ports:
+    - "9091:80"
